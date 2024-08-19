@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <i class="fa-solid fa-bars" id="navOpenBtn"></i>
+            <i class="fa-solid fa-xmark" id="navCloseBtn"></i>
+        </div>
+        <div class="dark-mode">
+            <div class="sun" onclick="setDefault()" id="sun"><i class="fa-solid fa-cloud-sun"></i></div>
+            <div class="moon" onclick="setDarkMode()" id="moon"><i class="fa-solid fa-cloud-moon"></i></div>
+        </div>
+    </header>
+
+    <main id="main">
+        <div class="sidebar" id="sideBar">sidebar</div>
+        <div class="home-page" id="homePg">
+            <div class="card-slider">
+                <div class="card">
+                    <img src="images/mountainhorse.jpeg">
+                    <h1>Mountain</h1>
+                    <p>Horse</p>
+                    <div class="play"><i class="fa-solid fa-circle-play"></i></div>
+                </div>
+                <div class="card">
+                    <img src="images/butterfly.jpeg">
+                    <h1>Butterfly</h1>
+                    <p>test</p>
+                    <div class="play"><i class="fa-solid fa-circle-play"></i></div>
+                </div>
+                <div class="card">
+                    <img src="images/park.jpeg">
+                    <h1>Park</h1>
+                    <p>kids</p>
+                    <div class="play"><i class="fa-solid fa-circle-play"></i></div>
+                </div>
+                <div class="card">
+                    <img src="images/rainforest.jpeg">
+                    <h1>Forest</h1>
+                    <p>waterflow</p>
+                    <div class="play"><i class="fa-solid fa-circle-play"></i></div>
+                </div>
+                <div class="card">
+                    <img src="images/park.jpeg">
+                    <h1>park1</h1>
+                    <p>test2</p>
+                    <div class="play"><i class="fa-solid fa-circle-play"></i></div>
+                </div>
+            
+            </div>
+            <div class="test">hello</div>
+        </div>
+        <div class="lofi-page" id="lofiPg"></div>
+        <div class="rain-page" id="rainPg"></div>
+    </main>
+
+    <footer>
+        <div class="home-icon"><i class="fa-solid fa-house" id="homeBtn"></i></div>
+        <div class="lofi-music"><i class="fa-brands fa-youtube" id="lofiBtn"></i></div>
+        <div class="rain-sounds"><i class="fa-solid fa-headphones" id="rainBtn"></i></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
